@@ -1,0 +1,26 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    /* background-color: red; */
+
+}
+
+.header_container{
+   background-color: #F7F7F7;
+   height: 100%;
+   align-items: center;
+   padding: 20px;
+   border-radius: 15px;
+   box-shadow: 10px 10px 10px -1px rgba(54, 54, 54, 0.66)
+
+}
+
+.header_container img{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 900px;
+
+ }
